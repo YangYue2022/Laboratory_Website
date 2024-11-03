@@ -1,0 +1,21 @@
+/* 设置整个页面的背景颜色 */
+body,
+html {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-family: "MyFont";
+    min-width: 1600px;
+}
+
+:lang(en) {
+    font-family: "Quattrocento Sans", sans-serif;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./font/ByteSans-Regular.ttf') format('truetype');
+}
